@@ -25,6 +25,12 @@ const Navbar = () => {
               Home
             </Link>
             <Link
+              href="/services"
+              className="hover:text-blue-400 transition-colors duration-200 text-lg"
+            >
+              Services
+            </Link>
+            <Link
               href="/contact"
               className="hover:text-blue-400 transition-colors duration-200 text-lg"
             >
@@ -86,12 +92,7 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
-              href="/about"
-              className="block hover:text-blue-400 transition-colors duration-200 text-lg"
-            >
-              About
-            </Link>
+
             <Link
               href="/services"
               className="block hover:text-blue-400 transition-colors duration-200 text-lg"
