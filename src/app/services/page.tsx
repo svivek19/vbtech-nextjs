@@ -15,7 +15,7 @@ import {
   SiAdobephotoshop,
 } from "react-icons/si";
 
-export default function Page() {
+export default function page() {
   return (
     <div className="container mx-auto p-4 bg-gradient-to-r from-blue-50 via-white to-blue-50 min-h-screen">
       {/* Header Section */}
@@ -60,7 +60,7 @@ export default function Page() {
           </h2>
           <p className="text-gray-600 mb-6">
             Our team crafts eye-catching posters that effectively communicate
-            your brand's message, ensuring high-quality design and impactful
+            your brands message, ensuring high-quality design and impactful
             visuals.
           </p>
           <div className="flex items-center gap-4 text-3xl text-gray-600">
